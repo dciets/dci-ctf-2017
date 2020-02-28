@@ -58,7 +58,7 @@ GEM
     nio4r (2.1.0)
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
-    puma (3.9.1)
+    puma (3.12.3)
     rack (2.0.3)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -97,6 +97,8 @@ GEM
     thread_safe (0.3.6)
     tzinfo (1.2.3)
       thread_safe (~> 0.1)
+    tzinfo-data (1.2019.3)
+      tzinfo (>= 1.0.0)
     websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
@@ -105,8 +107,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  puma (~> 3.7)
+  puma (~> 3.12)
   rails (~> 5.1.2)
+  tzinfo-data
 
 BUNDLED WITH
    1.14.5
